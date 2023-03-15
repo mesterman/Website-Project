@@ -1,0 +1,110 @@
+.Logo{
+    display: inline;
+}
+
+.Pages{
+    display: inline;
+    float: right;
+    font-size: xx-large;
+    padding-top: 160px;
+    margin-right: 50px;
+}
+
+.link1{
+    padding-left: 40px;
+}
+
+.link2{
+    padding-left: 40px;
+}
+
+.link3{
+    padding-left: 40px;
+}
+
+h1{
+   text-align: center; 
+   font-size: 35px;
+}
+
+.top{
+    background-color: #e69739;
+}
+
+.middle{
+    background-color: #aad3dc;
+}
+
+.ImageTop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.Desc1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: large;
+}
+
+.ImageMid{
+    float: left;
+    border: solid;
+}
+
+.joinus {
+    display: block;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-align: center;
+    width: 70%;
+}
+
+.desc2 {
+    padding-top: 5%;
+}
+
+.ImageBot {
+    float: right;
+    border: solid;
+}
+
+.Youth{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-align: center;
+    width: 70%;
+    padding-top: 3%;
+    padding-bottom: 5%
+}
+
+.desc3 {
+    padding-top: 5%;
+}
+
+.Email{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    width: 70%;
+    border-top: solid;
+}
+
+body{
+    background-color: #469387;
+}
+
+Notes:
+#aad3dc
+#469387
+#e69739
