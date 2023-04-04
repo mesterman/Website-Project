@@ -5,7 +5,7 @@
 
 header {
     width: 100%;
-    height: 140px;
+    height: 100px;
     background-color: rgb(70, 147, 135);
     position: fixed;
     display: block;
@@ -18,13 +18,13 @@ header {
 
 .logo {
     text-align: left;
-    height: 140px;
+    height: 100px;
     width: auto;
 }
 
 nav {
     float: right;
-    line-height: 150px;
+    line-height: 100px;
 }
 
 nav a {
@@ -46,7 +46,7 @@ nav a:hover{
 h1{
    text-align: center; 
    font-size: 35px;
-   padding-top: 150px;
+   padding-top: 110px;
 }
 
 .top{
@@ -93,6 +93,7 @@ h1{
 
 .desc2 {
     padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .ImageBot {
@@ -113,6 +114,7 @@ h1{
 
 .desc3 {
     padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .Email{
@@ -126,6 +128,24 @@ h1{
 
 body{
     background-color: #469387;
+}
+
+button{
+    background-color: #18222b;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+button:hover{
+    color: #e69739;
 }
 
 Notes:
