@@ -62,12 +62,12 @@ h1{
 }
 
 .ImageTop {
+    padding-top: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    border-width: 2px;
-    border-style: solid;
+    max-width: 40%;
+    height:auto;
 }
 
 .Desc1 {
@@ -122,6 +122,7 @@ h1{
 }
 
 .Email{
+    padding-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +132,7 @@ h1{
 }
 
 body{
-    background-color: #469387;
+    background-color: #d3d9d4;
 }
 
 button{
@@ -152,6 +153,13 @@ button:hover{
     background-color: #e69739;
     color: white;;
 }
+
+footer {
+    background-color: #d3d9d4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
 
 @media (max-width:1138px){
     nav a{
