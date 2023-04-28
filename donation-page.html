@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="donation-page.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Donation Page</title>
+  </head>
+  <body>
+    <!-- Logo -->
+    <img id="logo" src="images/logo.png" alt="Logo" />
+
+    <!-- Header -->
+    <header id="header">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a id="donate" href="#">DONATE</a></li>
+          <li>
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+          </li>
+        </ul>
+    </header>
+
+    <!-- Background -->
+    <img id="background" src="images/many-dogs.jpg" alt="Background">
+
+    <!-- Description -->
+    <h1 class="info">Support Happy Tails</h1>
+    <div id="description">
+      <p>With your donations, you are helping us provide care, food, and medical treatment for the animals in our shelter.  Donations also help support our shelter’s efforts to find permanent homes for these animals by funding adoption programs and outreach efforts to connect animals with loving families. Additionally, donations will be used to educate the public about responsible pet ownership and to advocate for the humane treatment of animals in the community. Your donations, no matter how small,  can help make a significant difference in the lives of the animals in our shelter.</p>
+    </div>
+
+    <div id="container">
+      <!-- Left Side -->
+      <div>
+        <!-- Donation Amounts -->
+        <h1 class="info">Amounts</h1>
+        <div id="donation-amounts">
+          <button class="button">$5</button>
+          <button class="button">$10</button>
+          <button class="button">$15</button>
+          <button class="button">$20</button>
+          <button class="button">$30</button>
+          <button class="button">$40</button>
+          <button class="button">$50</button>
+          <button class="button">$100</button>
+          <button class="button">$150</button>
+          <button class="button">Custom</button>
+        </div>
+
+        <!-- Contact Information -->
+        <h1 class="info">Contact Information</h1>
+        <div class="contact-info">
+          <div>
+            <input class="first-name" type="text" required>
+            <h6>First Name</h6>
+          </div>
+          <div>
+            <input class="last-name" type="text" required>
+            <h6>Last Name</h6>
+          </div>
+        </div>
+        <div class="contact-info">
+          <div>
+            <input class="email" type="text" required>
+            <h6>Email</h6>
+          </div>
+          <div>
+            <input class="phone-num" type="text" required>
+            <h6>Phone Number</h6>
+          </div>
+        </div>
+
+        <!-- Billing Address -->
+        <h1 class="info">Billing Address</h1>
+        <div class="billing-add">
+          <div>
+            <input class="address1" type="text" required>
+            <h6>Address Line 1</h6>
+            <input class="address2" type="text" required>
+            <h6>Address Line 2</h6>
+          </div>
+        </div>
+        <div class="billing-add">
+          <div>
+            <input class="city" type="text" required>
+            <h6>City</h6>
+          </div>
+          <div>
+            <input class="state" type="text" required>
+            <h6>State/Province</h6>
+          </div>
+          <div>
+            <input class="zip-code" type="text" required>
+            <h6>Zip/Postal Code</h6>
+          </div>
+        </div>
+
+        <!-- Payment Information -->
+        <h1 class="info">Payment Information</h1>
+        <div class="payment-info">
+          <div>
+            <input class="name-on-card" type="text" required>
+            <h6>Name on Card</h6>
+          </div>
+        </div>
+        <div class="payment-info">
+          <div>
+            <input class="card-number" type="text" required>
+            <h6>Card Number</h6>
+          </div>
+
+          <div>
+            <select class="card-type" required>
+              <option>Card Type</option>
+              <option>Visa</option>
+              <option>Mastercard</option>
+              <option>American Express</option>
+              <option>Discover</option>
+            </select>
+          </div>
+        </div>
+        <div class="payment-info">
+          <div>
+            <input class="expiry-date" type="text" placeholder="MM/YY" maxlength="5" required>
+            <h6>Expiry Date</h6>
+          </div>
+          <div>
+            <input class="cvv" type="password" maxlength="3" required>
+            <h6>CVV</h6>
+          </div>
+          <div>
+            <button class="donate-b">Donate</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div>
+        <img class="image" src="images/cat.jpg" alt="Cat">
+        <img class="image" src="images/dog-snout.jpg" alt="Dog Snout">
+        <img class="image" src="images/shiba.jpg" alt="Shiba">
+      </div>
+    </div>
+  </body>
+</html>
