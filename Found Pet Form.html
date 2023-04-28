@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="stylesheetfoundform.css" />
+        <title>Lost or Found Pet Form</title>
+    </head>
+    <body>
+        <div class="box-area">
+            <header>
+            <div class="wrapper">
+              <img class="logo" src="logo.png" alt="Logo" />
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Adoption Process</a>
+                <a href="#">Donate</a>
+                <a href="#">Volunteer</a>
+                <a href="#">Animal Services</a>
+                <a href="#">About Us</a>
+            </nav>
+            </div>
+            </header>
+        </div>
+        <section class = "middle">
+            <h1> Lost and Found Pet Form </h1> <br>
+            <div class = "form">
+            <form action = "Thank you.html" method = post>
+                <fieldset>
+                    <label for = "Lost or Found">Lost or Found: </label>
+                    <input type="radio" name="Lost or Found" value="Lost" class = "radio-button" required> Lost
+                    <input type="radio" name="Lost or Found" value="Found"class = "radio-button"> Found
+                </fieldset><br>
+
+                <p>
+                    <label for = "first name"> First Name: </label>
+                    <input type = "text" id="first name" name = "first name" required>
+                </p>
+                <p>
+                    <label for = "last name"> Last Name: </label>
+                    <input type = "text" id="last name" name = "last name" required>
+                </p>
+                
+                <p>
+                    <label for = "email"> Email Address: </label>
+                    <input type = "email" id="Email" name = "Email" required>
+                </p>
+
+                <p>
+                    <label for = "address">Address: </label>
+                    <input type = "text" id="address" name = "address" required>
+                </p>
+                <p>
+                    <label for = "city">City: </label>
+                    <input type = "text" id="city" name = "city" required>
+                </p>
+                <p>
+                    <label for = "state">State: </label>
+                    <input type = "text" id="state" name = "state" required>
+                </p>
+                <p>
+                    <label for = "zip code">Zip Code: </label>
+                    <input type = "text" id="zip code" name = "zip code" required>
+                </p>
+                <p>
+                    <label for = "phone">Phone: </label>
+                    <input type = "tel" id="phone" name = "phone" required>
+                </p>
+
+                <p>
+                    <label for = "street last seen in">Street Last Seen In: </label>
+                    <input type = "text" id="street last seen in" name = "street last seen in" required>
+                </p>
+                <p>
+                    <label for = "date lost">Date Lost: </label>
+                    <input type = "date" id="date lost" name = "date lost">
+                </p>
+
+                <fieldset>
+                    <label for = "Species">Species: </label>
+                    <input type="radio" name="species" value="Dog" class = "radio-button" required> Dog
+                    <input type="radio" name="species" value="Cat" class = "radio-button"> Cat
+                    <input type="radio" name="species" value="Bird" class = "radio-button"> Bird
+                    <input type="radio" name="species" value="Rodent" class = "radio-button"> Rodent
+                    <input type="radio" name="species" value="Other" class = "radio-button"> Other 
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Gender">Gender: </label>
+                    <input type="radio" name="Gender" value="Male" class = "radio-button" required> Male
+                    <input type="radio" name="Gender" value="Female" class = "radio-button"> Female
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Spayed / Neutered">Spayed / Neutered: </label>
+                    <input type="radio" name= "Spayed / Neutured" value="Yes" class = "radio-button" required> Yes
+                    <input type="radio" name="Spayed / Neutured" value="No" class = "radio-button"> No 
+                    <input type="radio" name="Spayed / Neutured" value="Not Sure" class = "radio-button"> Not Sure 
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Scanned for Microchip"> Scanned for Microchip: </label>
+                    <input type="radio" name= "Spayed / Neutured" value="Yes" class = "radio-button"> Yes
+                    <input type="radio" name="Spayed / Neutured" value="No" class = "radio-button"> No 
+                </fieldset><br>
+
+                <p>
+                    <label for = "Microchip Number">Microchip Number: </label>
+                    <input type = "text" id="Microchip Number" name = "Microchip Number">
+                </p>
+
+                <p>
+                    <label for = "Collar / Tag Description">Collar / Tag Description: </label>
+                    <input type = "text" id="Collar / Tag Description" name = "Collar / Tag Description">
+                </p>
+
+                <p>
+                    <label for = "Age">Age : </label>
+                    <input type = "Number" id="Age" name = "Age">
+                </p>
+
+                <p>
+                    <label for = "Breed">Breed : </label>
+                    <input type = "text" id="Breed" name = "Breed">
+                </p>
+
+                <p>
+                    <label for = "Size">Size : </label>
+                    <input type = "Text" id="Size" name = "Size">
+                </p>
+
+                <p>
+                    <label for = "Color">Color : </label>
+                    <input type = "text" id="Color" name = "Color">
+                </p>
+
+                <fieldset>
+                    <label for = "Coat">Coat : </label>
+                    <input type="radio" name= "Coat" value="Long" class = "radio-button"> Long
+                    <input type="radio" name= "Coat" value="Medium" class = "radio-button"> Medium
+                    <input type="radio" name="Coat" value="Short" class = "radio-button"> Short
+                    <input type="radio" name="Coat" value="Docked" class = "radio-button"> Curly
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Tail">Tail : </label>
+                    <input type="radio" name= "Tail" value="Long" class = "radio-button"> Long
+                    <input type="radio" name= "Tail" value="Medium" class = "radio-button"> Medium
+                    <input type="radio" name="Tail" value="Short" class = "radio-button"> Short
+                    <input type="radio" name="Tail" value="Curly" class = "radio-button"> Curly
+                    <input type="radio" name="Tail" value="Docked" class = "radio-button"> Docked
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Ears">Ears : </label>
+                    <input type="radio" name= "Ears" value="Erect" class = "radio-button"> Erect
+                    <input type="radio" name= "Ears" value="Semi-Erect" class = "radio-button"> Semi-Erect
+                    <input type="radio" name="Ears" value="Tipped" class = "radio-button"> Tipped
+                    <input type="radio" name="Ears" value="Cropped" class = "radio-button"> Cropped
+                    <input type="radio" name="Ears" value="Droopy" class = "radio-button"> Droopy
+                </fieldset><br>
+                <p>
+                    <label for="additional-info">Additional information:</label>
+                    <textarea id="additional-info" name="additional-info" rows="4" cols="50"></textarea>
+                </p>  <br>
+
+                <p>
+                    <label for="image upload">Upload Photo of the Animal:</label>
+                    <input type="file" id="image upload" name="image upload" accept="image/*">
+                </p><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        </div>
+    </body>
