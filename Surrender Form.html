@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="stylesheetfoundform.css" />
+        <title>Owner Surrender Request Form</title>
+    </head>
+    <body>
+        <div class="box-area">
+            <header>
+            <div class="wrapper">
+              <img class="logo" src="logo.png" alt="Logo" />
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Adoption Process</a>
+                <a href="#">Donate</a>
+                <a href="#">Volunteer</a>
+                <a href="#">Animal Services</a>
+                <a href="#">About Us</a>
+            </nav>
+            </div>
+            </header>
+        </div>
+        <section class = "middle">
+            <h1> Owner Surrender Request Form </h1> <br>
+            <div class = "form">
+            <form action = "Thank you.html" method = post>
+                <p>
+                    <label for = "first name"> First Name: </label>
+                    <input type = "text" id="first name" name = "first name" required>
+                </p>
+                <p>
+                    <label for = "last name"> Last Name: </label>
+                    <input type = "text" id="last name" name = "last name" required>
+                </p>
+                
+                <p>
+                    <label for = "email"> Email Address: </label>
+                    <input type = "email" id="Email" name = "Email" required>
+                </p>
+
+                <p>
+                    <label for = "address">Address: </label>
+                    <input type = "text" id="address" name = "address" required>
+                </p>
+                <p>
+                    <label for = "city">City: </label>
+                    <input type = "text" id="city" name = "city" required>
+                </p>
+                <p>
+                    <label for = "state">State: </label>
+                    <input type = "text" id="state" name = "state" required>
+                </p>
+                <p>
+                    <label for = "zip code">Zip Code: </label>
+                    <input type = "text" id="zip code" name = "zip code" required>
+                </p>
+                <p>
+                    <label for = "phone">Phone: </label>
+                    <input type = "tel" id="phone" name = "phone" required>
+                </p>
+
+                <h4> Your Pet's Information: </h4> <br>
+                <p>
+                    <label for = "Pet's Name">Your Pet's Name : </label>
+                    <input type = "text" id="Pet's Name" name = "Pet's Name" required>
+                </p>
+
+                <fieldset>
+                    <label for = "Species">Species: </label>
+                    <input type="radio" name="species" value="Dog" class = "radio-button" required> Dog/Puppy
+                    <input type="radio" name="species" value="Cat" class = "radio-button"> Cat/Kitten
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Gender">Gender: </label>
+                    <input type="radio" name="Gender" value="Male" class = "radio-button" required> Male
+                    <input type="radio" name="Gender" value="Female" class = "radio-button"> Female
+                </fieldset><br>
+
+                <p>
+                    <label for = "Age">Age : </label>
+                    <input type = "Number" id="Age" name = "Age">
+                </p>
+
+                <p>
+                    <label for = "Breed">Breed : </label>
+                    <input type = "text" id="Breed" name = "Breed">
+                </p>
+                <fieldset>
+                    <label for = "Spayed / Neutered">Spayed / Neutered: </label>
+                    <input type="radio" name= "Spayed / Neutured" value="Yes" class = "radio-button" required> Yes
+                    <input type="radio" name="Spayed / Neutured" value="No" class = "radio-button"> No 
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Up to Date on Vacines">Up to Date on Vacines? </label>
+                    <input type="radio" name= "Up to Date on Vacines" value="Yes" class = "radio-button" required> Yes
+                    <input type="radio" name="Up to Date on Vacines" value="No" class = "radio-button"> No 
+                </fieldset><br>
+
+                <fieldset>
+                    <label for = "Pre-existing injuries or medical conditions">Pre-Existing Injuries or Medical Conditions? </label>
+                    <input type="radio" name= "Pre-existing injuries or medical conditions" value="Yes" class = "radio-button" required> Yes
+                    <input type="radio" name="Pre-existing injuries or medical conditions" value="No" class = "radio-button"> No 
+                </fieldset><br>
+
+                <p>
+                    <label for="If yes, please describe">If yes, please describe:</label>
+                    <textarea id="If yes, please describe" name="If yes, please describe" rows="4" cols="50"></textarea>
+                </p>  <br>
+
+                <fieldset>
+                    <label for = "Current Medications">Current Medications </label>
+                    <input type="radio" name= "Current Medications" value="Yes" class = "radio-button" required> Yes
+                    <input type="radio" name="Current Medications" value="No" class = "radio-button"> No 
+                </fieldset><br>
+
+                <p>
+                    <label for="If yes, please describe">If yes, please describe:</label>
+                    <textarea id="If yes, please describe" name="If yes, please describe" rows="4" cols="50"></textarea>
+                </p>  <br>
+
+
+                <p>
+                    <label for="Reason for Surrender">Reason for Surrender:</label>
+                    <textarea id="Reason for Surrender" name="Reason for Surrender" rows="4" cols="50" required></textarea>
+                </p>  <br>
+
+                <p>
+                    <label for="image upload">Upload Photo of the Animal:</label>
+                    <input type="file" id="image upload" name="image upload" accept="image/*" required>
+                </p><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        </div>
+    </body>
