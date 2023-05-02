@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Page</title>
+    <style>
+      .content .btn{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        color:#fff;
+        transition: 0.5s;
+        margin-top: 20px;
+      }
+      .content .btn:hover{
+        background-color: #30d300;
+        color:#fff;
+
+      }
+      .content{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0.5)50%,rgba(255, 255, 255,0.5)50%),url(happy.jpeg);
+        margin:auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .content h1{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        color:coral;
+        font-size: 50px;
+        padding-top: 200px;
+      }
+      .content p{
+        font-family: arial;
+        font-weight: bold;
+        color: black ;
+        line-height: 30px;
+        padding-top: 30px;
+      }
+      * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #85ccc1;
+    position: fixed;
+    display: block;
+    box-shadow: 1px 10px 10px black;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0px auto;
+    overflow: auto;
+  }
+
+  .logo {
+    text-align: left;
+    height: 100px;
+    width: auto;
+  }
+  nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 36px 10px;
+    margin: 0px 1px;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: #e69739;
+}
+
+
+    </style>
+</head>
+
+<body>
+  <div class="box-area">
+    <header>
+    <div class="wrapper">
+      <img class="logo" src="image1.png" alt="Logo" />
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Adoption Process</a>
+      <a href="#">Donate</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="#">Animal Services</a>
+      <a href="#">About Us</a>
+    </nav>
+    </div>
+    </header>
+    </div>
+  <div class="content">
+    <h1> Meet the wonderful pets <br> of Happy Tails </h1>
+    <p>Every pet deserves a gift to have a home. <br> Find out how you can 
+    help out a pet in our community today </p>
+    <button class = "btn"> Learn More</button>
+    <p>Location: 1234 San Jose State, San Jose</p>
+  </div>
+
+</body>
+</html>
