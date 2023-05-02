@@ -161,6 +161,10 @@ footer {
     margin-top: 40px;
   }
 
+a {
+    color: #469387;
+}
+
 @media (max-width:1138px){
     nav a{
         letter-spacing: 4px;
@@ -201,7 +205,6 @@ footer {
     }
 }
 
-Notes:
-#aad3dc
+/* #aad3dc
 #469387
-#e69739
+#e69739 */
