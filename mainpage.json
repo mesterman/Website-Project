@@ -1,0 +1,13 @@
+{
+    "userdetails": [{
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "jondoe@gmail.com"
+
+    }, {
+    "firstname": "Anna",
+    "lastname": "Moreno",
+    "email": "anna@gmail.com"
+    }]
+    }
+    
