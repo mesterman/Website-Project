@@ -7,23 +7,26 @@
     <title>Donation Page</title>
   </head>
   <body>
-    <!-- Logo -->
-    <img id="logo" src="images/logo.png" alt="Logo" />
 
     <!-- Header -->
-    <header id="header">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Volunteer</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a id="donate" href="#">DONATE</a></li>
-          <li>
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
-          </li>
-        </ul>
-    </header>
+  <div class="box-area">
+    <header>
+    <div class="wrapper">
+      <img class="logo" src="images/logo.png" alt="Logo" />
+    <nav>
+      <a href="home.html">Home</a>
+        <a href="adoption.html">Adoption Process</a>
+        <a href="donation-page.html">Donate</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="Animal_services.html">Animal Services</a>
+        <a href="mainpage.html">About Us</a>
+        <a href="FinalContact.html">Contact Us</a>
+        </div>
+      </a>
+    </nav>
+  </div>
+  </header>
+  </div>
 
     <!-- Background -->
     <img id="background" src="images/many-dogs.jpg" alt="Background">
@@ -35,6 +38,9 @@
     </div>
 
     </script>
+    
+    <!--Form Tag --> 
+    <form name="myForm" action="" method="POST">
 
     <div id="container">
       <!-- Left Side -->
@@ -42,37 +48,37 @@
         <!-- Donation Amounts -->
         <h1 class="info">Amounts</h1>
         <div id="donation-amounts">
-          <button class="button">$5</button>
-          <button class="button">$10</button>
-          <button class="button">$15</button>
-          <button class="button">$20</button>
-          <button class="button">$30</button>
-          <button class="button">$40</button>
-          <button class="button">$50</button>
-          <button class="button">$100</button>
-          <button class="button">$150</button>
-          <button class="button">Custom</button>
+          <button class="button" type="button" value="5">$5</button>
+          <button class="button" type="button" value="10">$10</button>
+          <button class="button" type="button" value="15">$15</button>
+          <button class="button" type="button" value="20">$20</button>
+          <button class="button" type="button" value="30">$30</button>
+          <button class="button" type="button" value="40">$40</button>
+          <button class="button" type="button" value="50">$50</button>
+          <button class="button" type="button" value="100">$100</button>
+          <button class="button" type="button" value="150">$150</button>
+          <button class="button" type="button">Custom</button>
         </div>
 
         <!-- Contact Information -->
         <h1 class="info">Contact Information</h1>
         <div class="contact-info">
           <div>
-            <input class="first-name" type="text" required>
+            <input id="first-name" type="text" required>
             <h6>First Name</h6>
           </div>
           <div>
-            <input class="last-name" type="text" required>
+            <input id="last-name" type="text" required>
             <h6>Last Name</h6>
           </div>
         </div>
         <div class="contact-info">
           <div>
-            <input class="email" type="text" required>
+            <input id="email" type="text" required>
             <h6>Email</h6>
           </div>
           <div>
-            <input class="phone-num" type="text" required>
+            <input id="phone-num" type="text" required>
             <h6>Phone Number</h6>
           </div>
         </div>
@@ -81,23 +87,23 @@
         <h1 class="info">Billing Address</h1>
         <div class="billing-add">
           <div>
-            <input class="address1" type="text" required>
+            <input id="address1" type="text" required>
             <h6>Address Line 1</h6>
-            <input class="address2" type="text" required>
+            <input id="address2" type="text">
             <h6>Address Line 2</h6>
           </div>
         </div>
         <div class="billing-add">
           <div>
-            <input class="city" type="text" required>
+            <input id="city" type="text" required>
             <h6>City</h6>
           </div>
           <div>
-            <input class="state" type="text" required>
+            <input id="state" type="text" required>
             <h6>State/Province</h6>
           </div>
           <div>
-            <input class="zip-code" type="text" required>
+            <input id="zip-code" type="text" required>
             <h6>Zip/Postal Code</h6>
           </div>
         </div>
@@ -106,47 +112,56 @@
         <h1 class="info">Payment Information</h1>
         <div class="payment-info">
           <div>
-            <input class="name-on-card" type="text" required>
+            <input id="name-on-card" type="text" required>
             <h6>Name on Card</h6>
           </div>
         </div>
         <div class="payment-info">
           <div>
-            <input class="card-number" type="text" required>
+            <input id="card-number" type="text" required>
             <h6>Card Number</h6>
           </div>
 
           <div>
-            <select class="card-type" required>
+            <select id="card-type" required>
               <option>Card Type</option>
-              <option>Visa</option>
-              <option>Mastercard</option>
-              <option>American Express</option>
-              <option>Discover</option>
+              <option value="Visa">Visa</option>
+              <option value="Mastercard">Mastercard</option>
+              <option value="American Express">American Express</option>
+              <option value="Discover">Discover</option>
             </select>
           </div>
         </div>
+
         <div class="payment-info">
           <div>
-            <input class="expiry-date" type="text" placeholder="MM/YY" maxlength="5" required>
+            <input id="expiry-date" type="text" placeholder="MM/YY" maxlength="5" minlength="5" required>
             <h6>Expiry Date</h6>
           </div>
           <div>
-            <input class="cvv" type="password" maxlength="3" required>
+            <input id="cvv" type="password" minlength="3" maxlength="3" required>
             <h6>CVV</h6>
           </div>
           <div>
-            <button class="donate-b">Donate</button>
+            <button id="donate-b" type="submit" onclick="send()">Donate</button>
           </div>
         </div>
       </div>
+      </form>
 
       <!-- Right Side -->
-      <div className = right-col>
+      <div class = right-col>
         <img class="image" src="images/cat.jpg" alt="Cat">
         <img class="image" src="images/dog-snout.jpg" alt="Dog Snout">
         <img class="image" src="images/shiba.jpg" alt="Shiba">
       </div>
     </div>
+  
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js">
+    </script>
+    <script src="myForm.js"></script>
+
   </body>
 </html>
